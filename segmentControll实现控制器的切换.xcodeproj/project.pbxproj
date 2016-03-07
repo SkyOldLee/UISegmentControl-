@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33CFC7A61C8D3D10007EAA83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CFC7A51C8D3D10007EAA83 /* main.m */; };
-		33CFC7A91C8D3D10007EAA83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CFC7A81C8D3D10007EAA83 /* AppDelegate.m */; };
-		33CFC7AC1C8D3D10007EAA83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CFC7AB1C8D3D10007EAA83 /* ViewController.m */; };
-		33CFC7AF1C8D3D10007EAA83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CFC7AD1C8D3D10007EAA83 /* Main.storyboard */; };
 		33CFC7B11C8D3D10007EAA83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CFC7B01C8D3D10007EAA83 /* Assets.xcassets */; };
 		33CFC7B41C8D3D10007EAA83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CFC7B21C8D3D10007EAA83 /* LaunchScreen.storyboard */; };
 		33CFC7BF1C8D3D11007EAA83 /* segmentControll________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CFC7BE1C8D3D11007EAA83 /* segmentControll________Tests.m */; };
 		33CFC7CA1C8D3D11007EAA83 /* segmentControll________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CFC7C91C8D3D11007EAA83 /* segmentControll________UITests.m */; };
+		33CFC7DD1C8D3DAF007EAA83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CFC7DB1C8D3DAF007EAA83 /* AppDelegate.m */; };
+		33CFC7DE1C8D3DAF007EAA83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CFC7DC1C8D3DAF007EAA83 /* main.m */; };
+		33CFC7E11C8D3F0F007EAA83 /* XCMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CFC7E01C8D3F0F007EAA83 /* XCMainController.m */; };
+		33CFC7E41C8D3F33007EAA83 /* XCFristController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CFC7E31C8D3F33007EAA83 /* XCFristController.m */; };
+		33CFC7E71C8D3F52007EAA83 /* XCSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CFC7E61C8D3F52007EAA83 /* XCSecondController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +37,6 @@
 
 /* Begin PBXFileReference section */
 		33CFC7A11C8D3D10007EAA83 /* segmentControll实现控制器的切换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "segmentControll实现控制器的切换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33CFC7A51C8D3D10007EAA83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		33CFC7A71C8D3D10007EAA83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		33CFC7A81C8D3D10007EAA83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		33CFC7AA1C8D3D10007EAA83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		33CFC7AB1C8D3D10007EAA83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		33CFC7AE1C8D3D10007EAA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33CFC7B01C8D3D10007EAA83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33CFC7B31C8D3D10007EAA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33CFC7B51C8D3D10007EAA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +46,15 @@
 		33CFC7C51C8D3D11007EAA83 /* segmentControll实现控制器的切换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "segmentControll实现控制器的切换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CFC7C91C8D3D11007EAA83 /* segmentControll________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "segmentControll________UITests.m"; sourceTree = "<group>"; };
 		33CFC7CB1C8D3D11007EAA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CFC7DA1C8D3DAF007EAA83 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33CFC7DB1C8D3DAF007EAA83 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33CFC7DC1C8D3DAF007EAA83 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33CFC7DF1C8D3F0F007EAA83 /* XCMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMainController.h; sourceTree = "<group>"; };
+		33CFC7E01C8D3F0F007EAA83 /* XCMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCMainController.m; sourceTree = "<group>"; };
+		33CFC7E21C8D3F33007EAA83 /* XCFristController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFristController.h; sourceTree = "<group>"; };
+		33CFC7E31C8D3F33007EAA83 /* XCFristController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFristController.m; sourceTree = "<group>"; };
+		33CFC7E51C8D3F52007EAA83 /* XCSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSecondController.h; sourceTree = "<group>"; };
+		33CFC7E61C8D3F52007EAA83 /* XCSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSecondController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +105,7 @@
 		33CFC7A31C8D3D10007EAA83 /* segmentControll实现控制器的切换 */ = {
 			isa = PBXGroup;
 			children = (
-				33CFC7A71C8D3D10007EAA83 /* AppDelegate.h */,
-				33CFC7A81C8D3D10007EAA83 /* AppDelegate.m */,
-				33CFC7AA1C8D3D10007EAA83 /* ViewController.h */,
-				33CFC7AB1C8D3D10007EAA83 /* ViewController.m */,
-				33CFC7AD1C8D3D10007EAA83 /* Main.storyboard */,
-				33CFC7B01C8D3D10007EAA83 /* Assets.xcassets */,
-				33CFC7B21C8D3D10007EAA83 /* LaunchScreen.storyboard */,
-				33CFC7B51C8D3D10007EAA83 /* Info.plist */,
+				33CFC7D71C8D3DAF007EAA83 /* Class */,
 				33CFC7A41C8D3D10007EAA83 /* Supporting Files */,
 			);
 			path = "segmentControll实现控制器的切换";
@@ -117,7 +114,9 @@
 		33CFC7A41C8D3D10007EAA83 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				33CFC7A51C8D3D10007EAA83 /* main.m */,
+				33CFC7B01C8D3D10007EAA83 /* Assets.xcassets */,
+				33CFC7B21C8D3D10007EAA83 /* LaunchScreen.storyboard */,
+				33CFC7B51C8D3D10007EAA83 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +137,38 @@
 				33CFC7CB1C8D3D11007EAA83 /* Info.plist */,
 			);
 			path = "segmentControll实现控制器的切换UITests";
+			sourceTree = "<group>";
+		};
+		33CFC7D71C8D3DAF007EAA83 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				33CFC7D81C8D3DAF007EAA83 /* Controller */,
+				33CFC7D91C8D3DAF007EAA83 /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		33CFC7D81C8D3DAF007EAA83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33CFC7DF1C8D3F0F007EAA83 /* XCMainController.h */,
+				33CFC7E01C8D3F0F007EAA83 /* XCMainController.m */,
+				33CFC7E21C8D3F33007EAA83 /* XCFristController.h */,
+				33CFC7E31C8D3F33007EAA83 /* XCFristController.m */,
+				33CFC7E51C8D3F52007EAA83 /* XCSecondController.h */,
+				33CFC7E61C8D3F52007EAA83 /* XCSecondController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33CFC7D91C8D3DAF007EAA83 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				33CFC7DA1C8D3DAF007EAA83 /* AppDelegate.h */,
+				33CFC7DB1C8D3DAF007EAA83 /* AppDelegate.m */,
+				33CFC7DC1C8D3DAF007EAA83 /* main.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +276,6 @@
 			files = (
 				33CFC7B41C8D3D10007EAA83 /* LaunchScreen.storyboard in Resources */,
 				33CFC7B11C8D3D10007EAA83 /* Assets.xcassets in Resources */,
-				33CFC7AF1C8D3D10007EAA83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33CFC7AC1C8D3D10007EAA83 /* ViewController.m in Sources */,
-				33CFC7A91C8D3D10007EAA83 /* AppDelegate.m in Sources */,
-				33CFC7A61C8D3D10007EAA83 /* main.m in Sources */,
+				33CFC7E11C8D3F0F007EAA83 /* XCMainController.m in Sources */,
+				33CFC7E41C8D3F33007EAA83 /* XCFristController.m in Sources */,
+				33CFC7DD1C8D3DAF007EAA83 /* AppDelegate.m in Sources */,
+				33CFC7DE1C8D3DAF007EAA83 /* main.m in Sources */,
+				33CFC7E71C8D3F52007EAA83 /* XCSecondController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		33CFC7AD1C8D3D10007EAA83 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33CFC7AE1C8D3D10007EAA83 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		33CFC7B21C8D3D10007EAA83 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

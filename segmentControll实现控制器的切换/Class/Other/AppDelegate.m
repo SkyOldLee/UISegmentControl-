@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XCMainController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //1 创建窗口
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    //2 设置主控制器
+    XCMainController *mainVc = [[XCMainController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mainVc];
+    self.window.rootViewController = nav;
+    //3 显示window
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
